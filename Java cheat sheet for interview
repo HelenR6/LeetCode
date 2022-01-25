@@ -47,6 +47,11 @@ Arrays.fill(arr, -1);           // initialize all array elements with value -1
 public void helper(int[] nums);
 helper(new int[]{1, 2});        // initialize array in method
 
+int[] array = {23, 43, 55, 12};
+int newLength = array.length;
+int[] copiedArray = Arrays.copyOf(array, newLength);// make a copy of array
+
+
 /********************** HashMap (TreeMap), HashSet (TreeSet)***********************/
 HashMap<Character, Integer> map = new HashMap<Character, Integer>();
 map.put('c', 1);
