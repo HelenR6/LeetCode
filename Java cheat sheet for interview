@@ -51,6 +51,10 @@ int[] array = {23, 43, 55, 12};
 int newLength = array.length;
 int[] copiedArray = Arrays.copyOf(array, newLength);// make a copy of array
 
+arr = Arrays.copyOf(arr, arr.length + 1); //Append an element to array
+arr[arr.length - 1] = 40; // Assign 40 to the last element
+System.out.println(Arrays.toString(arr));
+
 
 /********************** HashMap (TreeMap), HashSet (TreeSet)***********************/
 HashMap<Character, Integer> map = new HashMap<Character, Integer>();
