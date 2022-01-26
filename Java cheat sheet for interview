@@ -21,6 +21,7 @@ s.indexOf(“a”);               // return first index of substring “a”   i
 s.indexOf(‘a’, 2);            // indexOf(int ch, fromIndex), indexOf(String str, fromIndex)
 s.lastIndexOf(‘a’);           // also we can use s.lastIndexOf(String str)
 s.replaceAll(substr, target); // replace all substr to target in s
+s+=c     //concatenate a char to a string
 
 char[] arr = s.toCharArray();
 String[] arr = s.split("\\*") // when delimiter is '*'
