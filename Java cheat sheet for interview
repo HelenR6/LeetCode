@@ -136,7 +136,8 @@ List<Integer> list = new ArrayList<>();
 list.add(14);
 list.add(0, 10);                			            // list.add(int index, int value);
 list.get(int index);
-list.remove(list.size() - 1);
+list.get(list.size()-1)                           // get last element of a list
+list.remove(list.size() - 1);                     // remove last element of a list
 list.set(int index, int val);                     // replaces element at index and returns original
 list.indexOf(Object o);                           // return first index of occurrence of specified element in the list; -1 if not found
 list.subList(int fromIndex, int toIndex);         // return a sublist within range [fromIndex, toIndex)
