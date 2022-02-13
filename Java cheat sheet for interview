@@ -27,6 +27,7 @@ char[] arr = s.toCharArray();
 String[] arr = s.split("\\*") // when delimiter is '*'
 String[] arr = s.split("\\.") // when delimiter is '.'
 String res = String.join(String delimiter, List<String> data); // use the delimiter to concatenate the string in data.
+String res= new String(arr)
 Objects.equals(Object a, Object b); // (1)if both parameters are null return true
                                     // (2)if exactly one parameter is null return false
                                     // (3)return the result of invoking the equals() method of the first parameter passing it the second parameter
