@@ -134,6 +134,7 @@ Set<Integer> set = new LinkedHashSet<>();
 
 /********************** List, ArrayList, LinkedList *************/
 List<Integer> list = new ArrayList<>();
+List <List<String>> result=new ArrayList<>();     // create list of string list 
 list.add(14);
 list.add(0, 10);                			            // list.add(int index, int value);
 list.get(int index);
