@@ -23,7 +23,7 @@ s.lastIndexOf(‘a’);           // also we can use s.lastIndexOf(String str)
 s.replaceAll(substr, target); // replace all substr to target in s
 s+=c     //concatenate a char to a string
 
-char[] arr = s.toCharArray();
+[char[] to String]:   char[] arr = s.toCharArray();
 String[] arr = s.split("\\*") // when delimiter is '*'
 String[] arr = s.split("\\.") // when delimiter is '.'
 String res = String.join(String delimiter, List<String> data); // use the delimiter to concatenate the string in data.
